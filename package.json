@@ -1,0 +1,17 @@
+{
+  "name": "dynamodb-localhost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node -r esm src/setup.js",
+    "build": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.739.0",
+    "esm": "^3.2.25"
+  }
+}
